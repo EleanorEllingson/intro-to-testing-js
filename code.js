@@ -4,6 +4,23 @@ function helloWorld() {
 }
 
 //sayHello function
-function sayHello(){
-    return "Say Hello!"
+
+//function sayHello(input){
+    //if(input === "Jane"){
+        //return "Hello, Jane!"
+    //}
+   // else if(input === "Alex"){
+        //return "Hello, Alex!"
+   // }
+    //else if(input === "Pat"){
+       // return "Hello, Pat!"
+   // } else {
+      //  return "Say Hello!"
+    //}
+
+//}
+function sayHello(input){
+ return "Hello, " + input + "!"
 }
+
+
