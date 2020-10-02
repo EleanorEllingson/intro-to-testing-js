@@ -20,7 +20,11 @@ function helloWorld() {
 
 //}
 function sayHello(input){
- return "Hello, " + input + "!"
+    if(typeof input == 'undefined' || typeof input == 'boolean'){
+        return "Hello, World!";
+    }
+    return "Hello, " + input + "!"
 }
+
 
 
